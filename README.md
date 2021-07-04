@@ -28,6 +28,7 @@ Cap. Brasil
 E-mail: brasil@cap.com
  
 2. Cliente: Agência Divulga Tudo 
+
 Sistema de Anúncios Online 
 Agência Divulga Tudo
 E-mail: divulgatudo@agencia.com
@@ -95,6 +96,7 @@ Cap. Brasil
 E-mail: brasil@cap.com
  
 2. Cliente: Agência Divulga Tudo 
+
 Calculadora de Anúncios
 Agência Divulga Tudo
 E-mail: divulgatudo@agencia.com
