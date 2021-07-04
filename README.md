@@ -1,12 +1,14 @@
 # Como compilar e executar o programa.
 
 **1ª Parte: calculadora.js**
+
 	Abrir o arquivo no https://replit.com/ ou em algum editor de código-fonte;
 	Apertar no botão Run;
 	Digitar o valor que deverá ser investido;
 	Receber as informações através do console.
 
 **2ª Parte: cadastrarAnuncios.html**
+
 	Primeiramente baixar todas as pastas existentes nesse projeto, incluindo o arquivo cadastrarAnuncios.html;
 	Após a verificação se todas as pastas e arquivos foram baixados, abrir o arquivo cadastrarAnuncios.html;
 	Com isso, a página web irá abrir através do seu navegador sendo necessário preencher o formulário com: nome do anúncio, nome do cliente, investimento diário em R$, data do anúncio (inicial e final), clicar no botão cadastrar e observar as resolução da projeção aproximada.
@@ -16,6 +18,7 @@ ________________________________________________________________________________
 ## Sistema de Anúncios Online - Agência Divulga Tudo
 
 Responsáveis 
+
 Esta seção do documento apresenta informações sobre o prestador de serviços Cap. Brasil e o cliente solicitante do projeto, Agência Divulga Tudo. 
  
 1. Prestador do Serviço: Cap. Brasil
@@ -39,9 +42,11 @@ O propósito deste documento é coletar, analisar e definir as necessidades e ca
 
 O Sistema de Anúncios Online é um projeto direcionado para área de cadastro de anúncios, que além de organiza-los também irá conceder ao cliente projeções aproximadas através de parâmetros como os dias investidos e investimento por dia. Oferece campos de formulário para adicionar informações como o nome que o anúncio irá receber, o nome do cliente que está cadastrando o anúncio, a data de início, a data de término e o investimento por dia. Além disso, após o depósito dessas informações nos campos requeridos e o clique no botão cadastrar da tela, o que será exibido ao usuário será exatamente a projeção aproximada que conta com os seguintes itens: valor total investido, quantidade máxima de visualizações, quantidade máxima de cliques, quantidade máxima de compartilhamentos.
 Os parâmetros citados acima são calculados através de dados analisados em anúncios anteriores, sendo eles:
+	
 	1) A cada 30 pessoas que visualizam o anúncio original (não compartilhado) a cada R$ 1,00 investido.
 	2) A cada 100 pessoas que visualizam o anúncio 12 clicam nele.
 	3) A cada 20 pessoas que clicam no anúncio 3 compartilham nas redes sociais.
+
 Onde o valor total investido é a quantidade de dias a ser investido (sendo essa a difereça entre a data término e a data inicial) multiplicado pelo investimento diário que o cliente informou, o máximo visualizações é o valor total investido multiplicado por 30 (sendo o 30 o primero dado informado acima), o máximo de cliques é o resultado do máximo de visualizações multiplicado pela porcentagem de 12% (sendo 12% o segundo dado informado acima) e o máximo de compartilhamentos que é o resultado do máximo de cliques dividido por 20 e multiplicado por 3 (sendo essa divisão por 20 e multiplicação por 3 o terceiro dado informado acima).
 
 3. Requisitos de Negócio 
@@ -102,11 +107,13 @@ sistema, fornecendo a todos os envolvidos uma descrição compreensível deste e
 2. Descrição do Produto
 A Calculadora.js é um projeto direcionado para área de cálculo com projeções calculadas através dos valores investidos pelo cliente. Oferecendo ao cliente o campo para digitar o valor que deseja investir, onde essas projeções aproximadas oferecem: quantidade de visualizações do anúncio, quantidade de cliques no anúncio, quantidade de compartilhamentos de anúncio, quantidade de novas visualizações através de compartilhamentos, quantidade máxima de compartilhamento.
 Os parametros citados acima são calculados através de dados analisados em anúncios anteriores, sendo eles:
+
 	1) 30 pessoas visualizam o anúncio original (não compartilhado) a cada R$ 1,00 investido.
 	2) a cada 100 pessoas que visualizam o anúncio 12 clicam nele.
 	3) a cada 20 pessoas que clicam no anúncio 3 compartilham nas redes sociais.
 	4) cada compartilhamento nas redes sociais gera 40 novas visualizações.
 	5) o mesmo anúncio é compartilhado no máximo 4 vezes em sequência.
+
 Onde o valor investido é correspondente ao que o cliente digitou, a visualização do anúncio é o valor investido multiplicado por 30 (sendo o 30 o primero dado informado acima), os cliques de anúncios é a visualização do anúncio multiplicada pela porcentagem (sendo 12% o segundo dado informado acima), os compartilhamentos do anuncio é o clique do anuncio dividido por 20 e multiplicado por 3 (sendo essa divisão por 20 e multiplicação por 3 o terceiro dado informado acima), as novas visualizações é o compartilhamento do anuncio multiplicado por 40 (sendo essa multiplicação por 40 o quarto dado informado acima) e o compartilhamento máximo é o compartilhamentos do anúncio multiplicado por 4 (sendo essa multiplicação por 4 o quinto dado informado acima).
 	
 3. Requisitos de Negócio 
