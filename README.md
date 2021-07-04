@@ -1,7 +1,7 @@
-# calculadora.js
+# calculadora.js#
 
 
-## Como compilar e executar o programa.
+## Como compilar e executar o programa. ##
 
 **1ª Parte: calculadora.js**
 	Abrir o arquivo no https://replit.com/ ou em algum editor de código-fonte;
