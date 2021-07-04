@@ -23,14 +23,14 @@ Esta seção do documento apresenta informações sobre o prestador de serviços
  
 1. Prestador do Serviço: Cap. Brasil
 
-Projeto e Codificação 
-Cap. Brasil 
+Projeto e Codificação.
+Cap. Brasil.
 E-mail: brasil@cap.com
  
 2. Cliente: Agência Divulga Tudo 
 
-Sistema de Anúncios Online 
-Agência Divulga Tudo
+Sistema de Anúncios Online.
+Agência Divulga Tudo.
 E-mail: divulgatudo@agencia.com
 
 Documento de Visão do Sistema
@@ -52,30 +52,30 @@ Onde o valor total investido é a quantidade de dias a ser investido (sendo essa
 
 3. Requisitos de Negócio 
 
-3.1. Abrangência Complementar a Descrição
-O Sistema de Anúncios Online foi concebido para o uso da Agência Divulga Tudo da forma que melhor lhe servir, tendo em vista que será utilizado com os clientes que usufruirem desse serviço da empresa. Para o total funcionamento do sistema perante ao cliente, é necessário que ele disponha de internet para utilizar o serviço de forma satisfatória através de navegadores web.
+	3.1. Abrangência Complementar a Descrição
+	O Sistema de Anúncios Online foi concebido para o uso da Agência Divulga Tudo da forma que melhor lhe servir, tendo em vista que será utilizado com os clientes que usufruirem desse serviço da empresa. Para o total funcionamento do sistema perante ao cliente, é necessário que ele disponha de internet para utilizar o serviço de forma satisfatória através de navegadores web.
 
-3.2 Valor Provido ao Cliente 
-Além de realizar o cadastro do anúncio, esse sistema tem o objetivo de facilitar a visão que o cliente terá ao contratar o serviço por determinado tempo e com determinado investimento. Trazendo consequentemente, mais segurança e satisfação ao cliente no quesito informações sobre parâmetros que agragam ao seu conhecimento, podendo até ser o fator determinante para o fechamento do contrato.
+	3.2 Valor Provido ao Cliente 
+	Além de realizar o cadastro do anúncio, esse sistema tem o objetivo de facilitar a visão que o cliente terá ao contratar o serviço por determinado tempo e com determinado investimento. Trazendo consequentemente, mais segurança e satisfação ao cliente no quesito informações sobre parâmetros que agragam ao seu conhecimento, podendo até ser o fator determinante para o fechamento do contrato.
 
 4. Escopo e Limitações 
 
-4.1 Escopo do Release
-O objetivo inicial é a simplicidade que trará ações intuitivas do cliente perante ao cenário e também a boa funcionalidade do sistema para facilitar a conclusão do cadastro.Na tela principal deverá existir a sequência de parâmetros e seus respectivos campos: 
-	Nome do Anúncio;
-	Nome do Cliente;
-	Investimento Diário em R$;
-	Data do Anúncio (de Data Inicial até Data Término);
-	Botão cadastrar, onde após sua solicitação deverá cadastrar o anúncio e transmitir as informações necessárias.
-	
-4.2 Limitações e Exclusões
-Não poderá existir no sistema botões que não funcionam.
+	4.1 Escopo do Release
+	O objetivo inicial é a simplicidade que trará ações intuitivas do cliente perante ao cenário e também a boa funcionalidade do sistema para facilitar a conclusão do cadastro.Na tela principal deverá existir a sequência de parâmetros e seus respectivos campos: 
+		Nome do Anúncio;
+		Nome do Cliente;
+		Investimento Diário em R$;
+		Data do Anúncio (de Data Inicial até Data Término);
+		Botão cadastrar, onde após sua solicitação deverá cadastrar o anúncio e transmitir as informações necessárias.
+
+	4.2 Limitações e Exclusões
+	Não poderá existir no sistema botões que não funcionam.
 
 5. Contexto do Negócio 
 
-5.1 Prioridades de Projeto
-A maior prioridade do projeto é levar satisfação e ótima funcionalidade ao sistema que o cliente pediu. Atendendo suas expectativas e sempre mantendo contato para pedir o 
-seu feedback, encaixando o produto nas especificações necessárias. Sua maior restrição é não fazer algo que o cliente não tenha pedido, mudar o sentido do projeto/sistema sem a autorização do cliente é a maior restrição pré-determinada nesse documento.
+	5.1 Prioridades de Projeto
+	A maior prioridade do projeto é levar satisfação e ótima funcionalidade ao sistema que o cliente pediu. Atendendo suas expectativas e sempre mantendo contato para pedir o 
+	seu feedback, encaixando o produto nas especificações necessárias. Sua maior restrição é não fazer algo que o cliente não tenha pedido, mudar o sentido do projeto/sistema sem a autorização do cliente é a maior restrição pré-determinada nesse documento.
 
 6. Fatores de Sucesso do Produto 
 O sucesso do sistema será determinado através do funcionamento do Sistema de Anúncios Online correspondente aos seus requisitos solicitados. Entre eles o procedimento esperado da tela de cadastro, como também a funcionalidade correta do botão "Cadastrar". Sendo observada a impressão dos parâmetros da projeção aproximada de acordo com as informações transmitidas pelo cliente.
@@ -121,28 +121,28 @@ Onde o valor investido é correspondente ao que o cliente digitou, a visualizaç
 	
 3. Requisitos de Negócio 
 
-3.1. Abrangência Complementar a Descrição
-A Calculadora.js foi concebido para o uso da Agência Divulga Tudo da forma que melhor lhe servir, tendo em vista que será utilizado com os clientes que usufruirem desse serviço da empresa.
-3.2 Valor Provido ao Cliente 
-Além de realizar o cálculo e as projeções aproximadas, esse sistema tem o objetivo de facilitar a visão que o cliente terá ao investir "x" valor. Trazendo consequentemente, mais segurança e satisfação ao cliente no quesito informações sobre parâmetros que agragam ao seu conhecimento, podendo até ser o fator determinante para a decisão de um possível contrato de serviço.
+	3.1. Abrangência Complementar a Descrição
+	A Calculadora.js foi concebido para o uso da Agência Divulga Tudo da forma que melhor lhe servir, tendo em vista que será utilizado com os clientes que usufruirem desse serviço da empresa.
+	3.2 Valor Provido ao Cliente 
+	Além de realizar o cálculo e as projeções aproximadas, esse sistema tem o objetivo de facilitar a visão que o cliente terá ao investir "x" valor. Trazendo consequentemente, mais segurança e satisfação ao cliente no quesito informações sobre parâmetros que agragam ao seu conhecimento, podendo até ser o fator determinante para a decisão de um possível contrato de serviço.
 
 4. Escopo e Limitações 
 
-4.1 Escopo do Release
-O objetivo inicial é a simplicidade que trará ações intuitivas do cliente perante ao cenário e também a boa funcionalidade do sistema para facilitar o cálculo.
-No cenário principal deverá existir a requisição do valor investido, o cliente deverá digitar esse valor e a sequência de parâmetros como resposta deverá ser: 
-	Visualizações;
-	Cliques no Anúncio;
-	Novas Visualizações através de Compartilhamentos;
-	Compartilhamento Máximo.
-4.2 Limitações e Exclusões
-Não poderá existir no sistema resultados de parâmetros não correspondentes ao cálculo correto.
+	4.1 Escopo do Release
+	O objetivo inicial é a simplicidade que trará ações intuitivas do cliente perante ao cenário e também a boa funcionalidade do sistema para facilitar o cálculo.
+	No cenário principal deverá existir a requisição do valor investido, o cliente deverá digitar esse valor e a sequência de parâmetros como resposta deverá ser: 
+		Visualizações;
+		Cliques no Anúncio;
+		Novas Visualizações através de Compartilhamentos;
+		Compartilhamento Máximo.
+	4.2 Limitações e Exclusões
+	Não poderá existir no sistema resultados de parâmetros não correspondentes ao cálculo correto.
 
 5. Contexto do Negócio 
 
-5.1 Prioridades de Projeto
-A maior prioridade do projeto é levar satisfação e ótima funcionalidade ao sistema que o cliente pediu. Atendendo suas expectativas e sempre mantendo contato para pedir o seu feedback, encaixando o produto nas especificações necessárias.Sua maior restrição é não fazer algo que o cliente não tenha pedido, mudar o sentido 
-do projeto/sistema sem a autorização do cliente é a maior restrição pré-determinada nesse documento.
+	5.1 Prioridades de Projeto
+	A maior prioridade do projeto é levar satisfação e ótima funcionalidade ao sistema que o cliente pediu. Atendendo suas expectativas e sempre mantendo contato para pedir o seu feedback, encaixando o produto nas especificações necessárias.Sua maior restrição é não fazer algo que o cliente não tenha pedido, mudar o sentido 
+	do projeto/sistema sem a autorização do cliente é a maior restrição pré-determinada nesse documento.
 
 6. Fatores de Sucesso do Produto 
 O sucesso do sistema será determinado através do funcionamento da Calculadora.js correspondente aos seus requisitos solicitados. Entre eles o procedimento esperado do cálculo através do valor investidoSendo observada a impressão dos parâmetros da projeção aproximada de acordo com a informação transmitida pelo cliente.
