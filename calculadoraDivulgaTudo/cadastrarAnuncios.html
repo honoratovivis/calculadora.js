@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cadastro de Anúncio</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div id="main-container">
+        <h1>Cadastre o Seu Anúncio</h1>
+        <form id="register-form">
+            <div class="full-box">
+                <div class="half-box">
+                    <label for="nomeAnuncio">Nome do Anúncio</label>
+                    <input type="text" name="nomeAnuncio" id="nomeAnuncio"
+                        placeholder="Digite o nome do seu anúncio aqui">
+                </div>
+
+
+                <div class="half-box">
+                    <label for="nome">Nome do Cliente</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o nome da sua empresa aqui">
+                </div>
+
+                <div class="half-box">
+                    <label for="investimento">Investimento Diário em R$</label>
+                    <input type="number" step="0.01" name="investimento" min="0.01" id="investimentoDiario"
+                        placeholder="Digite o investimento diário">
+                </div>
+
+
+                <div class="half-box">
+                    <label for="dataAnuncio">Data do Anúncio (de __/__/____ até __/__/____)<br></label>
+                    <input type="date" id="start" placeholder="Data inicial">
+                    <input type="date" id="end" placeholder="Data final">
+                    <button id="btn-Investimento">Cadastrar</button>
+                    <h5 id="h5-Investimento"> Você irá investir <span>?</span> dia(s).</h5>
+                    <h4 id="projecaoAproximada"></h4>
+                </div>
+        </form>
+    </div>
+    </div>
+
+    <footer>
+        <p class="copyright">&copy; Copyright Agência Divulga Tudo. <br> Por Viviane Honorato.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
