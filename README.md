@@ -84,7 +84,8 @@ ________________________________________________________________________________
 
 ## Calculadora de Anúncios - Agência Divulga Tudo
 
-Responsáveis 
+Responsáveis
+
 Esta seção do documento apresenta informações sobre o prestador de serviços Cap. Brasil e o cliente solicitante do projeto, Agência Divulga Tudo. 
  
 1. Prestador do Serviço: Cap. Brasil
