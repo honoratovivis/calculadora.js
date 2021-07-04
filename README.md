@@ -1,7 +1,4 @@
-# calculadora.js#
-
-
-# Como compilar e executar o programa.#
+# Como compilar e executar o programa.
 
 **1ª Parte: calculadora.js**
 	Abrir o arquivo no https://replit.com/ ou em algum editor de código-fonte;
@@ -16,7 +13,7 @@
 ___________________________________________________________________________________
 **Documentação - cadastrarAnuncios.html**
 
-Sistema de Anúncios Online - Agência Divulga Tudo
+## Sistema de Anúncios Online - Agência Divulga Tudo
 
 Responsáveis 
 Esta seção do documento apresenta informações sobre o prestador de serviços Cap. Brasil e o cliente solicitante do projeto, Agência Divulga Tudo. 
@@ -85,7 +82,7 @@ ________________________________________________________________________________
 
 **Documentação - Calculadora.js**
 
-Calculadora de Anúncios - Agência Divulga Tudo
+## Calculadora de Anúncios - Agência Divulga Tudo
 
 Responsáveis 
 Esta seção do documento apresenta informações sobre o prestador de serviços Cap. Brasil e o cliente solicitante do projeto, Agência Divulga Tudo. 
