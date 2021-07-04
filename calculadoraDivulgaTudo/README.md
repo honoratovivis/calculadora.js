@@ -13,7 +13,7 @@
 	Após a verificação se todas as pastas e arquivos foram baixados, abrir o arquivo cadastrarAnuncios.html;
 	Com isso, a página web irá abrir através do seu navegador sendo necessário preencher o formulário com: nome do anúncio, nome do cliente, investimento diário em R$, data do anúncio (inicial e final), clicar no botão cadastrar e observar as resolução da projeção aproximada.
 ___________________________________________________________________________________
-**Documentação - cadastrarAnuncios.html**
+**Documentação - cadastrarAnuncios.html (Parte 02)**
 
 ## Sistema de Anúncios Online - Agência Divulga Tudo
 
@@ -81,7 +81,7 @@ Onde o valor total investido é a quantidade de dias a ser investido (sendo essa
 O sucesso do sistema será determinado através do funcionamento do Sistema de Anúncios Online correspondente aos seus requisitos solicitados. Entre eles o procedimento esperado da tela de cadastro, como também a funcionalidade correta do botão "Cadastrar". Sendo observada a impressão dos parâmetros da projeção aproximada de acordo com as informações transmitidas pelo cliente.
 ____________________________________________________________________________________________
 
-**Documentação - Calculadora.js**
+**Documentação - Calculadora.js(Parte 01)**
 
 ## Calculadora de Anúncios - Agência Divulga Tudo
 
